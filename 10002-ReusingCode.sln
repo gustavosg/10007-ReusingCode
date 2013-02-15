@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{8D642ACD-488E-4C39-9DBB-FBE9BF3055C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationPC", "FrontEnd\ApplicationPC\ApplicationPC.csproj", "{C374250A-A011-4563-8FF6-26E518561F0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{0E4EE9A2-465C-48CD-A313-199AD4D8816A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "BackEnd\Domain\Domain.csproj", "{8409D5EC-FDCD-4CCE-8802-892C4F0B907A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C374250A-A011-4563-8FF6-26E518561F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C374250A-A011-4563-8FF6-26E518561F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C374250A-A011-4563-8FF6-26E518561F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C374250A-A011-4563-8FF6-26E518561F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8409D5EC-FDCD-4CCE-8802-892C4F0B907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8409D5EC-FDCD-4CCE-8802-892C4F0B907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8409D5EC-FDCD-4CCE-8802-892C4F0B907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8409D5EC-FDCD-4CCE-8802-892C4F0B907A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C374250A-A011-4563-8FF6-26E518561F0D} = {8D642ACD-488E-4C39-9DBB-FBE9BF3055C2}
+		{8409D5EC-FDCD-4CCE-8802-892C4F0B907A} = {0E4EE9A2-465C-48CD-A313-199AD4D8816A}
+	EndGlobalSection
+EndGlobal

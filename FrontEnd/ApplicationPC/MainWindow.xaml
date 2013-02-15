@@ -1,0 +1,23 @@
+﻿<Window x:Class="ApplicationPC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="768" Width="1024" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid>
+        <Ribbon HorizontalAlignment="Stretch" VerticalAlignment="Top" >
+            <!--<RibbonTab Name="Arquivo" Header="Arquivo">
+                <RibbonGroup>
+                    
+                    
+                </RibbonGroup>
+            </RibbonTab>-->
+            <RibbonTab Name="Comandos" Header="Comandos">
+                <Button Content="Oi"></Button>
+                <!--<RibbonButton Command=""/>
+                <RibbonButton Command=""/>-->
+            </RibbonTab>
+               
+
+
+        </Ribbon>
+    </Grid>
+</Window>

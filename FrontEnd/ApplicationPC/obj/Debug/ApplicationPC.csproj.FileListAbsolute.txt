@@ -1,0 +1,13 @@
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\bin\Debug\ApplicationPC.exe.config
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\bin\Debug\ApplicationPC.exe
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\bin\Debug\ApplicationPC.pdb
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC.csprojResolveAssemblyReference.cache
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\MainWindow.baml
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\MainWindow.g.cs
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\App.g.cs
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC_MarkupCompile.cache
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC.g.resources
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC.Properties.Resources.resources
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC.csproj.GenerateResource.Cache
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC.exe
+D:\Projetos\Visual Studio\2012\Projects\10002-ReusingCode\FrontEnd\ApplicationPC\obj\Debug\ApplicationPC.pdb
