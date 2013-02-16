@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ApplicationPC.VIews;
 
 namespace ApplicationPC
 {
@@ -23,6 +24,12 @@ namespace ApplicationPC
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Propagacao_Click_1(object sender, RoutedEventArgs e)
+        {
+            GraficoPropagacao graficoPropagacao = new GraficoPropagacao();
+            frame1.Navigate(graficoPropagacao);
         }
     }
 }

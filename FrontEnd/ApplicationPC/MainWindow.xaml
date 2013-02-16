@@ -13,14 +13,10 @@
             </RibbonTab>
             <RibbonTab Name="Graficos" Header="Gráficos">
                 <RibbonGroup Header="Elevação Sonora">
-                    <RibbonButton Label="Propagação" Name="Propagacao" />
-                    
-                    
+                    <RibbonButton Label="Propagação" Name="Propagacao" Click="Propagacao_Click_1"/>
                 </RibbonGroup>
             </RibbonTab>
-
-
-
         </Ribbon>
+        <Frame HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="frame1"/>
     </Grid>
 </Window>

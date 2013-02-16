@@ -1,0 +1,24 @@
+﻿<Page x:Class="ApplicationPC.VIews.GraficoPropagacao"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:dvc="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="600" 
+       
+      
+      Title="GraficoPropagacao">
+    <Grid  MaxHeight="800">
+
+        
+            <dvc:Chart HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <dvc:ColumnSeries Name="columnSeries" Title="Propagação em Gráfico"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                              DependentValuePath="Value" IndependentValuePath="Key" ItemsSource="{Binding}" />
+            </dvc:Chart>
+
+
+        
+
+    </Grid>
+</Page>
