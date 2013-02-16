@@ -4,18 +4,21 @@
         Title="MainWindow" Height="768" Width="1024" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
     <Grid>
         <Ribbon HorizontalAlignment="Stretch" VerticalAlignment="Top" >
-            <!--<RibbonTab Name="Arquivo" Header="Arquivo">
-                <RibbonGroup>
+            <RibbonTab Name="Comandos" Header="Comandos">
+                <RibbonGroup Header="Edição">
+                    <RibbonButton Label="Recortar" Command="ApplicationCommands.Cut" Name="Recortar" LargeImageSource="pack://application:,,,/Images;Component/Images/cut.png" ToolTip="Recortar o conteúdo selecionado"/>
+                    <RibbonButton Label="Copiar" Command="ApplicationCommands.Copy" Name="Copiar" LargeImageSource="pack://application:,,,/Images;Component/Images/copy.png" ToolTip="Copiar o conteúdo selecionado"/>
+                    <RibbonButton Label="Colar" Command="ApplicationCommands.Paste" Name="Colar" LargeImageSource="pack://application:,,,/Images;Component/Images/paste.png" ToolTip="Colar o conteúdo em memória"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Name="Graficos" Header="Gráficos">
+                <RibbonGroup Header="Elevação Sonora">
+                    <RibbonButton Label="Propagação" Name="Propagacao" />
                     
                     
                 </RibbonGroup>
-            </RibbonTab>-->
-            <RibbonTab Name="Comandos" Header="Comandos">
-                <Button Content="Oi"></Button>
-                <!--<RibbonButton Command=""/>
-                <RibbonButton Command=""/>-->
             </RibbonTab>
-               
+
 
 
         </Ribbon>

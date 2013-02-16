@@ -100,6 +100,12 @@
     <Folder Include="ViewModels\" />
     <Folder Include="VIews\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Library\Util\Images\Images.csproj">
+      <Project>{358639d6-6bb7-42bb-911b-2d10e1d05d00}</Project>
+      <Name>Images</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
