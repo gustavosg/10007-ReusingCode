@@ -1,0 +1,24 @@
+﻿<Application
+    x:Class="ApplicationMetro.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ApplicationMetro"
+    xmlns:localData="using:ApplicationMetro.Data">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    Estilos que definem aspectos comuns da aparência da plataforma 
+                    Exigidos por projetos Visual Studio e modelos de itens
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Recursos específicos do aplicativo -->
+
+            <x:String x:Key="AppName">ApplicationMetro</x:String>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

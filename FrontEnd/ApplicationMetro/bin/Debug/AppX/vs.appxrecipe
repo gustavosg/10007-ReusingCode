@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GUSTAVO-PC</Machine>
+    <WindowsUser>Gustavo</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>E820E751AE935D41B5AD2D20E9D819B8D831C69201818DF1B7034731B0B26B2F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0d24cbf0-119b-4ce9-be81-3dae4288de1c_1.0.0.0_neutral__jg5rmz0h9x2g0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0d24cbf0-119b-4ce9-be81-3dae4288de1c_jg5rmz0h9x2g0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0d24cbf0-119b-4ce9-be81-3dae4288de1c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Gustavo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-16T22:32:11.808</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\ApplicationMetro.exe">
+      <PackagePath>ApplicationMetro.exe</PackagePath>
+      <Modified>2013-02-16T22:32:11.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\ApplicationMetro.pdb">
+      <PackagePath>ApplicationMetro.pdb</PackagePath>
+      <Modified>2013-02-16T22:32:11.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-17T02:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-17T02:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-17T02:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-17T02:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2012-01-27T12:14:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2012-01-27T12:14:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2012-01-27T12:14:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-02-16T22:32:08.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-26T23:24:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2013-02-16T22:32:08.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2013-02-16T22:32:08.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2013-02-16T22:32:08.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-16T22:32:11.676</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

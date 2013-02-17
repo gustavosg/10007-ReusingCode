@@ -1,9 +1,17 @@
 ﻿<Window x:Class="ApplicationPC.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="768" Width="1024" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        Title="MainWindow" Height="768" Width="1366" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
     <Grid>
         <Ribbon HorizontalAlignment="Stretch" VerticalAlignment="Top" >
+            
+            <RibbonTab Name="Graficos" Header="Gráficos">
+                <RibbonGroup Header="Elevação Sonora">
+                    <RibbonButton Label="Propagação" Name="Propagacao" Click="Propagacao_Click_1" LargeImageSource="pack://application:,,,/Images;Component/Images/chart.png"
+                                  HorizontalAlignment="Center" VerticalAlignment="Center"
+                                  />
+                </RibbonGroup>
+            </RibbonTab>
             <RibbonTab Name="Comandos" Header="Comandos">
                 <RibbonGroup Header="Edição">
                     <RibbonButton Label="Recortar" Command="ApplicationCommands.Cut" Name="Recortar" LargeImageSource="pack://application:,,,/Images;Component/Images/cut.png" ToolTip="Recortar o conteúdo selecionado"/>
@@ -11,12 +19,10 @@
                     <RibbonButton Label="Colar" Command="ApplicationCommands.Paste" Name="Colar" LargeImageSource="pack://application:,,,/Images;Component/Images/paste.png" ToolTip="Colar o conteúdo em memória"/>
                 </RibbonGroup>
             </RibbonTab>
-            <RibbonTab Name="Graficos" Header="Gráficos">
-                <RibbonGroup Header="Elevação Sonora">
-                    <RibbonButton Label="Propagação" Name="Propagacao" Click="Propagacao_Click_1"/>
-                </RibbonGroup>
-            </RibbonTab>
         </Ribbon>
-        <Frame HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="frame1"/>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,138,0,0">
+            <Frame HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="frame1" HorizontalContentAlignment="Stretch"
+                   VerticalContentAlignment="Stretch"/>
+        </Grid>
     </Grid>
 </Window>
