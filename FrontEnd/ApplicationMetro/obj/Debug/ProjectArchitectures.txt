@@ -1,1 +1,0 @@
-D:\Projetos\10002-ReusingCode\FrontEnd\ApplicationMetro\ApplicationMetro.csproj;neutral
